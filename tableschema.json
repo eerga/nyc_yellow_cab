@@ -1,0 +1,80 @@
+[
+    {
+        "name": "ID",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "SPEED",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "TRAVEL_TIME",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "STATUS",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "DATA_AS_OF",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "LINK_ID",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "LINK_POINTS",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "ENCODED_POLY_LINE",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "ENCODED_POLY_LINE_LVLS",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "OWNER",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "TRANSCOM_ID",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "FLOAT64"
+    },
+    {
+        "name": "BOROUGH",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    },
+    {
+        "name": "LINK_NAME",
+        "description": "",
+        "mode": "NULLABLE",
+        "type": "STRING"
+    }
+]
