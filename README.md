@@ -9,7 +9,7 @@ For the purpose of this study, we are using 3 datasets - 2 historical datasets f
 projects/pubsub-public-data/topics/taxirides-realtime. 
 
 The following code was used to create table schema for data transfer:
-bq mk --time_partitioning_field timestamp --schema ride_id:string,point_idx:integer,latitude:float,longitude:float,timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,passenger_count:integer -t taxirides.realtime
+`bq mk --time_partitioning_field timestamp --schema ride_id:string,point_idx:integer,latitude:float,longitude:float,timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,passenger_count:integer -t taxirides.realtime`
 
 Tlc_yellow_trips_2015 was used as a training set
 In cases when it was possible (i.e., appropriate prediction values were present in the test set), realtime table was used as a test set
