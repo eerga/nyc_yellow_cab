@@ -11,10 +11,10 @@ For supervised learning algorithms, it is a common practice to split the data in
 For the purpose of this study, we are using 3 datasets - 2 historical datasets from Google's Marketplace in NYC TLC Trips and one newly updated one from pub/sub topic *projects/pubsub-public-data/topics/taxirides-realtime*. 
 
 ### What's the table schema (necessary for proper data loading)? 
-The following code was used to create table schema for data transfer:
+The following code was used to create table schema for data transfer: <br /> 
 `bq mk --time_partitioning_field timestamp --schema ride_id:string,point_idx:integer,latitude:float,longitude:float,timestamp:timestamp,meter_reading:float,meter_increment:float,ride_status:string,passenger_count:integer -t taxirides.realtime`
 
-### Train/ test data
+### Train / test data
 Tlc_yellow_trips_2015 was used as a training set
 In cases when it was possible (i.e., appropriate prediction values were present in the test set), realtime table was used as a test set. Otherwise, tlc_yellow_trips_2016 was used as a test set instead.
 
