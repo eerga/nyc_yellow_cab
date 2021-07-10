@@ -22,5 +22,5 @@ In cases when it was possible (i.e., appropriate prediction values were present 
 The two main machine learning models used were Boosted Classifier Tree and Linear Regression 
 
 ### Summary of the project scope
-• Supervised statistical analysis on market share decrease of NYC yellow cab company in Google Cloud Platform over 225 million records by running linear regression and boosted tree classifier models and visualizing in Data Studio
+• Supervised statistical analysis on market share decrease of NYC yellow cab company in Google Cloud Platform over 225 million records by running linear regression and boosted tree classifier models and visualizing in Data Studio <br />
 • Recommended business strategies such as introducing a yellow cab app with more transparent fare calculations, flexible payment options and optimized route to lower driving costs
