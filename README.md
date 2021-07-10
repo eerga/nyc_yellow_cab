@@ -1,4 +1,3 @@
-# nyc_yellow_cab
 ## Market Share Decrease Analysis of the NYC Yellow Cab
 
 ---
